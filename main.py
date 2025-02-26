@@ -1,0 +1,14 @@
+import sys
+import os
+
+sys.path.append(os.path.join(os.path.dirname(__file__), 'functions'))
+from modules.clear import clear
+from modules.temp import temp
+from modules.login import login
+from modules.cleanup import cleanup
+
+if __name__ == "__main__":
+    clear() 
+    temp()
+    login()
+    cleanup()
