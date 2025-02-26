@@ -7,8 +7,10 @@ from modules.temp import temp
 from modules.login import login
 from modules.cleanup import cleanup
 
-if __name__ == "__main__":
-    clear() 
+def main():
+    clear()
     temp()
     login()
     cleanup()
+if __name__ == "__main__":
+    main()
